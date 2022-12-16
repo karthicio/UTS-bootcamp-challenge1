@@ -46,15 +46,19 @@ body {
     margin-left: 25px;
 }
 
+/* Sets Anchor tag color and text to have no style lining i.e. underlining or through lining  */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Sets paragraph font to 16px */
 p {
     font-size: 16px;
 }
 
+/* Sets the hero class to strrech the whole length of the screen with a height of 800px and margin of 25px
+   also sets a background image from a different folder and covers the container entirely while keeping it's aspect ration (cover) and centers it with the element it is in*/
 .hero {
     height: 800px;
     width: 100%;
@@ -64,6 +68,7 @@ p {
     background-position: center;
 }
 
+/*  */
 .float-left {
     float: left;
     margin-right: 25px;
