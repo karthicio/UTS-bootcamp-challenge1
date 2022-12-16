@@ -1,15 +1,16 @@
-/*Sets all HTML elements to size while accounting for border and padding size in the element size specified
-    also sets the default margin and padding to all elements to 0*/
+/* Sets all HTML elements to size while accounting for border and padding size in the element size specified
+    also sets the default margin and padding to all elements to 0 */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Applies the fonts, background and text color to all elements within the body element */
 body {
     background-color: #d9dcd6;
 }
 
+/* Applies The font background and text color for the header as well as the margin size */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,11 +18,13 @@ body {
     color: #ffffff;
 }
 
+/* Any h1 elements within the header parent are set to display as inline blocks and have a font size of 48px */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Any elements with the seo class in the h1 elements in the header are changed to the following color */
 .header h1 .seo {
     color: #d9dcd6;
 }
